@@ -1,62 +1,128 @@
 <!DOCTYPE html>
 <html>
-<style>
-body, html {
-    height: 100%;
-    margin: 0;
-}
+<title>David Bruce Voiceover</title>
+<link rel="shortcut icon" type="image/x-icon" href="images/db_favicon.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <link rel="stylesheet" href="index.css" type="text/css" charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
 
-.bgimg {
-    /*background-image: url('/w3images/forestbridge.jpg');*/
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    color: white;
-    font-family: "Courier New", Courier, monospace;
-    font-size: 25px;
-}
-
-.topleft {
-    position: absolute;
-    top: 0;
-    left: 16px;
-}
-
-.bottomleft {
-    position: absolute;
-    bottom: 0;
-    left: 16px;
-}
-
-.middle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-hr {
-    margin: auto;
-    width: 40%;
-}
-</style>
 <body>
 
-  <!--<div class="bgimg">-->
+<div class="background">
+
   <div class="topleft">
-    <!-- <p>Logo</p>-->
+    <br>
+    <a href="./index.html"><img src="images/dbvo_logo.png" alt="" style="left:15px"/></a>
   </div>
-  <div class="middle">
-    <h1>COMING SOON</h1>
-    <hr>
-    <p>35 days left</p>
-  </div>
-  <div class="bottomleft">
-    <!-- <p>Some text</p>-->
-  </div>
-  <!--</div>-->
+
+<div class="menu">
+  <a id="home" href="#">home</a>
+  <a id="about" href="#">about</a>
+  <a id="contact" href="#">contact</a>
+</div>
+
+<div id="container">
+
+    <div id="homeBox" class="box effect1 active">
+      <p style="font-family: 'Roboto Bold';font-size: 18px;">David Bruce<br>Male Voice-Over Talent</p>
+      <div class="leftCol">
+        <p class="homeText">Need a one-time quick turnaround for a commercial voice over, a reliable,
+            consistent, on-going male voice over talent for corporate reads, a fresh
+            female imaging voice for TV or radio... or anything in between?
+            Dave truly understands both the art and business providing voice overs.
+          </p>
+          <p class="homeText">First time needing voice over? Dave makes the process easy. Files are
+              delivered fully edited through email or FTP. Live sessions via SourceConnect
+              or phone patch. Same day turn-around on request.
+            </p>
+            <p>Dave delivers high quality audio specializing in:</p>
+            <p>Commercial Voice Over<br>
+              Narrative Voice Over<br>
+              Web Video Voice Over<br>
+              In-Store Voice Over<br>
+              On Hold Voice Over<br>
+              Radio Imaging Voice Over<br>
+              TV Promo Voice Over</p>
+        </div>
+
+          <div class="rightCol">
+            <p style="font-size: 16px; font-family: 'Roboto Bold';">David Bruce - Demo Reel 1</p>
+            <audio controls>
+              <source src="audio/audio_sample_1.m4a" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio><br><br>
+              <p style="font-size: 16px; font-family: helvetica, Helvetica, Arial, sans-serif; font-weight: bold;">David Bruce - Demo Reel 2</p>
+              <audio controls>
+                <source src="audio/audio_sample_2.m4a" type="audio/mpeg">
+                  Your browser does not support the audio element.
+              </audio>
+         </div>
+          <!--
+
+        <p>Dave delivers high quality audio specializing in:</p>
+        <p>Commercial Voice Over<br>
+          Narrative Voice Over<br>
+          Web Video Voice Over<br>
+          In-Store Voice Over<br>
+          On Hold Voice Over<br>
+          Radio Imaging Voice Over<br>
+          TV Promo Voice Over</p>
+
+      </div>-->
+    </div>
+
+
+    <div id="aboutBox" class="box effect1">
+      <p style="font-family: 'Roboto Bold';font-size: 18px;">
+        About David Bruce
+      </p>
+      <p class="aboutText">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a semper leo.
+        Aenean semper fringilla dolor ac ullamcorper. Pellentesque habitant morbi
+        tristique senectus et netus et malesuada fames ac turpis egestas. Sed sit
+        amet dolor et ligula sodales consectetur eu non diam. Aenean ac fermentum
+        ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada
+        fames ac turpis egestas. Duis vitae ipsum odio.
+      </p>
+      <p class="aboutText">Aliquam vitae dictum dolor. Vestibulum ante ipsum primis in faucibus orci
+        luctus et ultrices posuere cubilia Curae; Phasellus rhoncus, arcu a accumsan
+        elementum, massa ipsum finibus dolor, in vulputate ligula magna vitae ex.
+        Cras eget dolor metus. Nam aliquam viverra dui non faucibus. Donec facilisis
+        sagittis lectus in euismod. Fusce a imperdiet quam, vel imperdiet nunc. Nam
+        ipsum dui, lobortis tempor erat in, dictum malesuada risus. Ut a lorem nec
+        nibh bibendum iaculis sit amet sed felis. Mauris nec luctus ex.
+      </p>
+      <p class="aboutText">Integer tincidunt urna eu nisi feugiat, ac dignissim ex mattis. Vivamus
+        cursus justo non pulvinar finibus. Quisque mattis, arcu vel ornare pulvinar,
+        purus erat semper enim, eget volutpat sem lacus sed neque. Pellentesque sed
+        posuere metus. Etiam augue ligula, sollicitudin ac nunc eget, tristique
+        scelerisque erat. Praesent sed purus nec felis tempus laoreet et a nisl.
+        Phasellus at neque leo. Mauris iaculis mi risus, vel facilisis justo auctor ut.
+        In et posuere enim. Cras vulputate bibendum lacinia. Suspendisse mi elit,
+        mollis ac purus ut, luctus cursus ex.
+      </p>
+    </div>
+
+
+    <div id="contactBox" class="box effect1">
+      <img src="images/contact_mail.jpg" alt="Contact" height="300" width="500" style="float: left; padding-top: 75px;">
+      <br><br>
+      <h4 style="margin-top: 10%;font-family: 'Roboto Bold';font-size: 25px;">
+        David Bruce
+      </h4>
+      <h4 style="font-family: 'Roboto Bold';font-size: 18px;">dave@davebrucevoiceover.com
+      </h4>
+      <h4 style="font-family: 'Roboto Bold';font-size: 18px;">561-670-6647
+      </h4>
+    </div>
+
+</div>
+
+<script type="text/javascript" src="index.js"></script>
+
+</div>
 
 </body>
 </html>
