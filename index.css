@@ -4,6 +4,7 @@ html, body {
     width: 100%;
     height: 105%;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .background {
@@ -68,12 +69,12 @@ html, body {
 .box {
     position: absolute;
     width: 80%;
-    height: 450px;
+    height: 65%;
     text-align: center;
     border-radius: 30px;
     background:#FFF;
     left: 150%;
-    top: 125px;
+    top: 105px;
     margin-left: -40%;
     overflow: hidden;
 }
@@ -152,9 +153,29 @@ html, body {
 
 .aboutText {
   text-align: left;
-  margin: 1% 10%;
+  margin: 1% 5%;
   font-family: 'Roboto Bold';
   font-size: 15px;
+  padding-top: 12px;
+}
+
+ul {
+  list-style-type: none;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+li:before {
+  content: "• ";
+}
+
+.aboutList {
+  text-align: left;
+  margin: 1% 5%;
+  font-family: 'Roboto Bold';
+  font-size: 15px;
+  padding-top: 10px;
 }
 
 .homeText {
@@ -173,3 +194,12 @@ html, body {
   width: 45%;
   float:right;
 }
+
+.about-words {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+  }
