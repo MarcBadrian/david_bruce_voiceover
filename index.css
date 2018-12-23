@@ -148,6 +148,11 @@ html, body {
   url('fonts/roboto_bold/Robato-Bold-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
+@font-face {
+  font-family: 'Beyond Infinity';
+  src: url('fonts/beyond_infinity.ttf') format('truetype');
+}
+
 .middletext {
   position: absolute;
   left: 50%;
@@ -184,24 +189,42 @@ li:before {
   padding-top: 10px;
 }
 
-.homeText {
+.homeTextOld {
   margin-left: 4%;
   text-align: left;
   font-family: 'Roboto Light';
   font-size: 15px;
 }
 
+.homeText {
+  display: flex;
+  padding: 20px;
+  text-align: left;
+  font-family: 'Roboto Bold';
+  font-size: 15px;
+}
+
 .leftCol {
-  width: 55%;
+  width: 40%;
   float:left;
 }
 
 .rightCol {
-  width: 45%;
+  width: 60%;
   float:right;
 }
 
 .about-words {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 200px;
+  }
+
+.checklist {
     display: block;
     margin-left: auto;
     margin-right: auto;
